@@ -19,12 +19,12 @@ export default function MainContent() {
     center: {
       x: 0,
       opacity: 1,
-      transition: { duration: 0.6, ease: "easeInOut" },
+      transition: { duration: 0.3, ease: "easeInOut" },
     },
     exit: (direction) => ({
       x: direction > 0 ? "-100%" : "100%",
       opacity: 0,
-      transition: { duration: 0.6, ease: "easeInOut" },
+      transition: { duration: 0.3, ease: "easeInOut" },
     }),
   };
 
